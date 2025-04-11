@@ -7,7 +7,7 @@ This project aims to analyze and predict the presence of heart disease using mac
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>Language</h2>
 
 - <b>Python</b> 
 
@@ -18,46 +18,76 @@ This project aims to analyze and predict the presence of heart disease using mac
 - <b>seaborn</b>
 - <b>scikit-learn(sklearn)</b> 
 
+<h2>Models Used</h2>
 
-<h2>Environments Used </h2>
+- <b>Logistic Regression</b>
+- <b>Random Forest</b>
+
+<h2>Environment Used </h2>
 
 - <b>Jupyter Notebook</b> 
 
 <h2>Program walk-through:</h2>
 
-<p align="center">
+<p align="left">
 Exploratory Data(Understanding the columns and shape of the data): <br/>
-<img src="https://imgur.com/a/Wf7gQ1k" height="80%" width="80%" alt="Heart Disease Analysis"/>
+<img src="https://imgur.com/1cmhPMd.png" height="80%" width="80%" alt="Heart Disease Analysis"/>
+<br />
 <br />
 
   
 Exploratory Data(Data info and columns):  <br/>
-<img src="https://imgur.com/a/intNUFC" height="80%" width="80%" alt="Heart Disease Analysis"/>
+<img src="https://imgur.com/WCn7F5o.png" height="80%" width="80%" alt="Heart Disease Analysis"/>
 <br />
 <br />
 
 Exploratory Data(Finding null values in the data and Data Describtion) : <br/>
-<img src="https://imgur.com/a/4C1d3FU" height="80%" width="80%" alt="Heart Disease Analysis"/>
+<img src="https://imgur.com/vyf86nC.png" height="80%" width="80%" alt="Heart Disease Analysis"/>
 <br />
 <br />
 
-Heart Disease Visualization:(Heart disease Count visualization)  <br/>
-<img src="https://imgur.com/a/6UXqYQU" height="80%" width="80%" alt="Heart Disease Analysis"/>
+Heart Disease Visualization(Heart disease Count visualization): <br/>
+<img src="https://imgur.com/Z4EX53S.png" height="80%" width="80%" alt="Heart Disease Analysis"/>
 <br />
 <br />
 
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Scatterplot Visualization( Age VS Cholesterol Level):  <br/>
+<img src="https://imgur.com/ZnNSz8A.png" height="80%" width="80%" alt="Heart Disease Analysis"/>
 <br />
 <br />
 
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Predicting the "Target" Variable with Logistic Regression:  <br/>
+<img src="https://imgur.com/cu1XPgl.png" height="80%" width="80%" alt="Heart Disease Prediction"/>
 <br />
 <br />
 
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+"Target" Varaible Prediction result:  <br/>
+<img src="https://imgur.com/vyVfT4h.png" height="80%" width="80%" alt="Heart Disease Prediction"/>
+<br />
+<br />
+
+Using Random Forest for better prediction Performance:  <br/>
+<img src="https://imgur.com/GcX6Dcs.png" height="80%" width="80%" alt="Heart Disease Prediction"/>
+<br />
+<br />
+
+<h2>Using confusion Metrix and Error rate to evaluate how well the model(Random Forest) is performing.
+Confusion Metrics show how many predictions the model got right or wrong. Error Rate tells me how often the model is wrong.</h2>
+
+Confusion metrics(Measuring overall model prediction performance):  <br/>
+<img src="https://imgur.com/WHjJxj0.png" height="80%" width="80%" alt="Heart Disease Prediction"/>
+<br />
+<br />
+
+Confusion metrix Visualization for heart disease :  <br/>
+<img src="https://imgur.com/wBVy23X.png" height="80%" width="80%" alt="Heart Disease Prediction"/>
+<br />
+<br />
+
+Model Prediction Report:  <br/>
+<img src="https://imgur.com/lwGXJX6.png" height="80%" width="80%" alt="Heart Disease Prediction"/>
+<br />
+<br />
 </p>
 
 <!--
